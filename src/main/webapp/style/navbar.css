@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #4a8dc8;
+}
+
+.navbar a.navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.navbar a.nav-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar a.nav-link:hover {
+  color: #e7e7e7;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
